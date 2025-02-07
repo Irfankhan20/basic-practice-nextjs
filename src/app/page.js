@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Counter from "@/components/Counter/Counter";
 
-export default function Home() {
+const HomePage = () => {
+  console.log("hello world");
+
   return (
     <div>
-      <h1>Hello World...!</h1>
+      <h1>Welcome to Next.Js Home Page</h1>
+      <Counter></Counter>
     </div>
   );
-}
+};
+
+export default HomePage;
