@@ -9,13 +9,13 @@ const Counter = () => {
 
       <div className="flex gap-5">
         <button
-          className="bg-blue-500 hover:bg-blue-700 p-3 text-white"
+          className="bg-blue-500 btn hover:bg-blue-700 text-white"
           onClick={() => setCounter(couter + 1)}
         >
           Increase
         </button>
         <button
-          className="bg-red-500 hover:bg-red-700 p-3 text-white"
+          className="bg-red-500 btn hover:bg-red-700 text-white"
           onClick={() => setCounter(couter - 1)}
         >
           Decrease
