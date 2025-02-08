@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import nextjsImg from "../../assets/next js image.png";
 const GalleryPage = () => {
   return (
     <div>
@@ -19,6 +19,14 @@ const GalleryPage = () => {
       </h2>
       <Image
         src="https://www.axelerant.com/hubfs/Imported_Blog_Media/nextjs_image1.jpg"
+        alt="Next image"
+        width={500}
+        height={500}
+        className="mx-auto"
+      />
+      <h2 className="text-2xl text-center py-1 mt-10 underline">Local Image</h2>
+      <Image
+        src={nextjsImg}
         alt="Next image"
         width={500}
         height={500}
