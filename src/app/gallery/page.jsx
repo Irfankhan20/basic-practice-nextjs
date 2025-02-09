@@ -1,5 +1,10 @@
 import Image from "next/image";
-import nextjsImg from "../../assets/next js image.png";
+import nextjsImg from "@/assets/next js image.png";
+
+export const metadata = {
+  title: "1st Project With Next.Js | Gallery Page",
+  description: "This is website gallery page",
+};
 const GalleryPage = () => {
   return (
     <div>

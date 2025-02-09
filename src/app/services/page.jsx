@@ -1,4 +1,9 @@
 import styles from "./Services.module.css";
+
+export const metadata = {
+  title: "1st Project With Next.Js | Services Page",
+  description: "This is website services page",
+};
 const Services = () => {
   return (
     <div>
