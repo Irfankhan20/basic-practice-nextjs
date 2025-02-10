@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter/Counter";
+import Link from "next/link";
 
 export const metadata = {
   title: "1st Project With Next.Js | Home Page",
@@ -19,7 +20,7 @@ const HomePage = async () => {
       </h1>
       <Counter></Counter>
       <h1 className="text-3xl underline font-bold text-center mt-10 mb-5">
-        All Shoes:
+        Shoes:
       </h1>
       <div className="flex justify-center  gap-20">
         {shoes.slice(0, 4).map((shoe) => (
@@ -43,6 +44,12 @@ const HomePage = async () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="flex justify-center mt-5">
+        <Link href="/all-shoes">
+          <button className="btn btn-outline btn-success">See More</button>
+        </Link>
       </div>
     </div>
   );
