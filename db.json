@@ -1,0 +1,40 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "title": "Nike Air Max 90",
+      "description": "Iconic running shoes with visible Air cushioning for all-day comfort.",
+      "price": 130
+    },
+    {
+      "id": 2,
+      "title": "Adidas Yeezy Boost 350",
+      "description": "Stylish and comfortable sneakers designed by Kanye West.",
+      "price": 220
+    },
+    {
+      "id": 3,
+      "title": "Puma Future Rider",
+      "description": "Retro-style sneakers with lightweight cushioning for everyday wear.",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "title": "Reebok Club C 85",
+      "description": "Classic tennis-inspired sneakers with a clean leather upper.",
+      "price": 90
+    },
+    {
+      "id": 5,
+      "title": "New Balance 574",
+      "description": "Versatile lifestyle sneakers with an ENCAP midsole for support.",
+      "price": 85
+    },
+    {
+      "id": 6,
+      "title": "Vans Sk8-Hi",
+      "description": "High-top skate shoes with durable suede and canvas uppers.",
+      "price": 80
+    }
+  ]
+}
