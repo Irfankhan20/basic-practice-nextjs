@@ -10,7 +10,9 @@ const HomePage = async () => {
   // console.log(data);
   return (
     <div>
-      <h1>Welcome to Next.Js Home Page</h1>
+      <h1 className="text-4xl font-bold text-center underline mb-5 mt-5">
+        Welcome to Next.Js Home Page
+      </h1>
       <Counter></Counter>
       <h1 className="text-3xl underline font-bold text-center mt-10 mb-5">
         All Shoes:
@@ -26,13 +28,13 @@ const HomePage = async () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Shoes!
-                <div className="badge badge-secondary">NEW</div>
+                {shoe.title}
+                <div className="badge badge-secondary">{shoe.price}</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>{shoe.description}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+                <button className="btn btn-outline btn-info">Buy Now</button>
+                <button className="btn btn-outline btn-success">Details</button>
               </div>
             </div>
           </div>
