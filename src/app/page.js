@@ -5,7 +5,11 @@ export const metadata = {
   description: "This is website home page",
 };
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/shoes");
+  const res = await fetch("http://localhost:5000/shoes", {
+    next: {
+      revalidate: 30,
+    },
+  });
   const shoes = await res.json();
   // console.log(data);
   return (
